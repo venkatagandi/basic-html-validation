@@ -1,0 +1,27 @@
+input:valid{
+    border:2px solid #ccc;
+}
+
+input:valid + .invalid{
+    visibility:hidden;
+}
+
+input:invalid + .invalid{
+    visibility:visible;
+}
+
+input:required{
+    border:2px solid #900;
+}
+
+input:valid{
+    border:2px solid #ccc;
+}
+
+.invalid{
+    position:relative;
+    display:block;
+    font-size:0.7 em;
+    color:#666;
+    margin-bottom:6px;
+}
